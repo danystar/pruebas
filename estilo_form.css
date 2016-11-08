@@ -1,0 +1,38 @@
+body {
+	width: 400px;
+	padding: 1%;
+	background-color:#AAAA11;
+}
+
+.sexo {
+  display: inline-block;
+  position: relative;
+  margin: .8em 0;	
+  
+}
+.campos {
+	margin: .8em 0;	
+}
+
+.tag-sex {
+	margin-right: 60px;
+}
+
+.etiqueta {
+	float:left;
+	width:25%;
+	margin-right:5px;
+}
+
+.area {
+	float:left;
+	/* padding-right: 30px */
+}
+
+/* #area{
+	margin-left:5px;
+	
+}
+ */
+
+

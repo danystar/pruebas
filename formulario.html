@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Practica T01P07 | José Daniel Cantó</title>
+<link rel="stylesheet" href="estilo_form.css" type="text/css" />
+</head>
+	
+<body>
+	<div id="todo">
+	
+		<h3>T01P07 | RELLENA TUS DATOS</h3> 
+		<form id="formDades" action="http://www.formular-chef.com/Formular-Chef.cgi" method="post">
+		
+		<fieldset>
+			<div>
+				<input type="hidden" name="recipient" value="danielcantoes@gmail.com"/>
+			</div>
+			<div class="campos">
+				<label class="etiqueta" for="nombre">Nombre</label>
+				<input type="text" size="20" id="nombre"/>
+			</div>
+						
+			<div class="campos">
+				<label class="etiqueta" for="Apellidos">Apellidos</label>
+				<input type="text" size="35" id="apellidos"/>
+			</div>
+									
+			<div class="campos">
+				<label class="etiqueta" for="Contraseña">Contraseña</label>
+				<input type="password" size="10" id="pass"/>
+			</div>
+						
+			<div class="campos">
+				<label class="etiqueta" for="dni">DNI</label>
+				<input type="text" size="9" id="dni"/>
+			</div>			
+			<div class="sexo">
+				<label class="tag-sex" for="sex-h">Sexo</label>
+				<input type="radio" id="sex-h" name="sex" value="hombre"/>
+				<label for="sex-h">hombre</label>
+				<input type="radio" id="sex-m" name="sex" value="mujer"/>
+				<label for="sex-m">mujer</label>	
+			</div>						
+			<div class="campos">
+				<label for="fichero">Incluir mi foto</label>
+				<input type="file" id="fichero" name="fichero" size="30"/>
+			</div>
+			<br/>			
+			<div class="campos">
+				<label class="etiqueta" for="estudios">Estudios Finalizados</label>
+				<select id=”estudios” name=”estudios”>
+					<option value="" selected="selected">- Seleccione una opción -</option>
+					<option value="eso">E.S.O</option>
+					<option value="bachiller">Bachillerato</option>
+					<option value="ciclogradomedio">Ciclo Formativo Grado Medio</option>
+					<option value="Ciclogradosuperior">Ciclo Formativo de Grado Superior</option>
+					<option value="univeridad">Estudios Universitarios</option>
+				</select>		
+			</div>
+			<br/>	
+			<div>
+				<label class="area" for="area">Otros Estudios</label>
+				<textarea id="area" name="area" rows="5" cols="30"></textarea>	
+			</div>
+						
+			<div class="campos">
+				<input type="checkbox" name="suscribe" selected="selected" checked value="me suscribo"/>Suscribirme al boletín de novedades.
+			</div>
+						
+			<div>
+				<input type="submit" value="Enviar" />
+				<input type="reset" id="reset" value="Borrar los datos introducidos"/>
+			</div
+			
+		</fieldset>
+		</form>
+	</div>
+ 
+</body>
+</html>

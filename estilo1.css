@@ -1,0 +1,37 @@
+body {
+	background-color: #E6CFC3;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 12
+}
+
+h1 {
+	text-align: center;
+	font-family: fantasy;
+	color: #FF0000;
+}
+
+#horario {
+	border-style: dotted;
+	border-color: #0000FF;
+	
+}
+
+.tabla {
+	border: 6px solid black;
+	background-color: #FFFFFF;
+}
+
+.intabla {
+	border: 1px solid;
+	border-color: #5F9EA0;
+}
+
+a {
+	text-decoration:none;
+	background-color: #FFFF00;
+
+}
+
+a:visited {
+	color: #FFFFFF;
+}
